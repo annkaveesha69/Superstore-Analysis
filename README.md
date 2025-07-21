@@ -1,6 +1,6 @@
 # Superstore Sales Analysis - SQL Project
 
-![Database Schema](docs/er_diagram.png)
+![Database Schema](docs/ER_diagram.png)
 
 ## 📋 Project Overview
 A comprehensive analysis of Superstore sales data using MySQL, demonstrating SQL skills for data exploration, transformation, and visualization.
@@ -19,7 +19,7 @@ The database consists of 3 main tables with the following relationships:
 - **Customers** can place multiple **Orders**
 - **Products** can appear in multiple **Orders**
 
-![ER Diagram](docs/er_diagram.png)
+![ER Diagram](docs/ER_diagram.png)
 
 ## 🔍 Key Findings
 1. **Technology products** generate the highest profit margins (22.3%)
@@ -36,5 +36,5 @@ The database consists of 3 main tables with the following relationships:
 ### Setup Instructions
 1. Clone repository:
    ```bash
-   git clone https://github.com/yourusername/superstore-analysis.git
+   git clone https://github.com/annkaveesha69/superstore-analysis.git
    cd superstore-analysis
