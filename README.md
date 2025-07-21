@@ -37,14 +37,3 @@ The database consists of 3 main tables with the following relationships:
 3. Corporate segment has the highest average order value
 4. New York City shows strongest sales value
 
-## 🚀 How to Run This Project
-
-### Prerequisites
-- MySQL 8.0+
-- MySQL Workbench (optional)
-
-### Setup Instructions
-1. Clone repository:
-   ```bash
-   git clone https://github.com/annkaveesha69/superstore-analysis.git
-   cd superstore-analysis
