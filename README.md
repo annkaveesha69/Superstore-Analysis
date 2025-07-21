@@ -12,7 +12,6 @@ A comprehensive analysis of Superstore sales data using MySQL, demonstrating SQL
 - Complex SQL queries (JOINs, CTEs, window functions)
 - Data aggregation and transformation
 - Performance optimization
-- Data visualization
 
 ## 📊 Database Schema
 The database consists of 3 main tables with the following relationships:
@@ -22,10 +21,10 @@ The database consists of 3 main tables with the following relationships:
 ![ER Diagram](docs/ER_diagram.png)
 
 ## 🔍 Key Findings
-1. **Technology products** generate the highest profit margins (22.3%)
-2. **December sales** are 34% higher than monthly average
-3. Corporate segment has 25% higher average order value than consumers
-4. West region shows strongest YoY growth (+18.7%)
+1. **Office Supplies** generate the highest profit margins (16.83%)
+2. **February sales** is the highest sales (40,602.27)
+3. Corporate segment has the highest average order value
+4. New York City shows strongest sales value
 
 ## 🚀 How to Run This Project
 
