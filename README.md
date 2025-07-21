@@ -5,7 +5,18 @@
 ## 📋 Project Overview
 A comprehensive analysis of Superstore sales data using MySQL, demonstrating SQL skills for data exploration, transformation, and visualization.
 
-**Dataset**: [Sample Superstore Data](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) (2015-2018)
+**Dataset**: [Sample Superstore Data]
+
+**Database Design Approach**
+To enable efficient analysis of the Superstore dataset, I designed a relational database with three normalized tables:
+
+Customers Table: Contains all customer demographic information including unique Customer ID, name, segment, and geographic details (city, state, postal code, region). This table serves as the master record for customer attributes.
+
+Products Table: Stores product information with Product ID as the primary key, along with category, sub-category, and product names. This structure allows for hierarchical analysis of product performance.
+
+Orders Table: Acts as the fact table recording all transactional data - order dates, shipping details, quantities, sales, discounts, and profits. It maintains relationships to both Customers and Products tables through foreign keys (Customer ID and Product ID).
+
+This normalized structure eliminates data redundancy while enabling complex business analysis through SQL joins. By separating dimensional data (customers/products) from transactional facts (orders), the database supports both granular performance analysis and aggregate reporting. The ER diagram visually represents these relationships and their cardinalities.
 
 ## 🛠️ Technical Skills Demonstrated
 - Database design (ER modeling)
