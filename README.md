@@ -5,7 +5,7 @@
 ## 📋 Project Overview
 A comprehensive analysis of Superstore sales data using MySQL, demonstrating SQL skills for data exploration, transformation, and visualization.
 
-**Dataset**: [Sample Superstore Data]
+**Dataset**: [Sample Superstore Data](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
 **Database Design Approach**
 To enable efficient analysis of the Superstore dataset, I designed a relational database with three normalized tables:
