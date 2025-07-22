@@ -2,7 +2,7 @@
 
 ![Database Schema](docs/ER_diagram.png)
 
-## 📋 Project Overview
+## Project Overview
 A comprehensive analysis of Superstore sales data using MySQL, demonstrating SQL skills for data exploration, transformation, and visualization.
 
 **Dataset**: [Sample Superstore Data](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
@@ -18,20 +18,20 @@ Orders Table: Acts as the fact table recording all transactional data - order da
 
 This normalized structure eliminates data redundancy while enabling complex business analysis through SQL joins. By separating dimensional data (customers/products) from transactional facts (orders), the database supports both granular performance analysis and aggregate reporting. The ER diagram visually represents these relationships and their cardinalities.
 
-## 🛠️ Technical Skills Demonstrated
+## Technical Skills Demonstrated
 - Database design (ER modeling)
 - Complex SQL queries (JOINs, CTEs, window functions)
 - Data aggregation and transformation
 - Performance optimization
 
-## 📊 Database Schema
+## Database Schema
 The database consists of 3 main tables with the following relationships:
 - **Customers** can place multiple **Orders**
 - **Products** can appear in multiple **Orders**
 
 ![ER Diagram](docs/ER_diagram.png)
 
-## 🔍 Key Findings
+## Key Findings
 1. **Office Supplies** generate the highest profit margins (16.83%)
 2. **February sales** is the highest sales (40,602.27)
 3. Corporate segment has the highest average order value
